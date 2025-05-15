@@ -15,15 +15,20 @@ print(f"Original task count: {original_count}")
 
 def is_pm_aggregation_task(row):
     name_patterns = [
-        r"meta.?planning",
+        r"aggregate\s+tasks",
         r"task\s+aggregation",
+        r"collect\s+tasks",
+        r"compile\s+tasks",
+        r"gather\s+tasks",
+        r"task\s+collection",
+        r"task\s+compilation",
+        r"task\s+gathering",
         r"task\s+management\s+process",
-        r"recursive\s+process",
+        r"pm\s+process",
+        r"project\s+management\s+process",
         r"meta.?task",
+        r"recursive\s+task",
         r"task\s+about\s+tasks",
-        r"starter\s+memo",
-        r"draft.*memo",
-        r"memo.*draft",
     ]
 
     if any(
@@ -32,7 +37,6 @@ def is_pm_aggregation_task(row):
         return True
 
     desc_patterns = [
-        r"meta.?planning\s+initiative",
         r"recursive\s+process\s+of\s+project\s+management",
         r"task\s+aggregation",
         r"meta.?task",
@@ -44,18 +48,12 @@ def is_pm_aggregation_task(row):
         r"self.referential",
         r"self.reference",
         r"recursive\s+reference",
-        r"starter\s+memo\s+on\s+this\s+meta",
-        r"draft.*memo\s+on\s+this\s+meta",
     ]
 
     if any(
         re.search(pattern, str(row["TaskDescription"]).lower())
         for pattern in desc_patterns
     ):
-        return True
-
-    meta_planning_task_ids = ["T10037", "T0242", "T10038"]
-    if row["TaskID"] in meta_planning_task_ids:
         return True
 
     if pd.isna(row["TaskDescription"]) or str(row["TaskDescription"]).strip() == "":
@@ -81,10 +79,6 @@ def is_mtap_rasa_params_task(row):
         r"manage\s+rasa",
         r"mtap\s+management",
         r"rasa\s+management",
-        r"rasa\s+field\s+memory",
-        r"rasa\s+index",
-        r"rasa\s+also\s+has",
-        r"field\s+memory\s+index",
     ]
 
     if any(
@@ -111,38 +105,11 @@ def is_mtap_rasa_params_task(row):
         r"only\s+about\s+rasa",
         r"mtap\s+only",
         r"rasa\s+only",
-        r"rasa\s+field\s+memory",
-        r"rasa\s+index",
-        r"rasa\s+instance",
-        r"rasa\s+awareness",
-        r"rasa\s+collaboration",
-        r"rasa.field.vrt",
-        r"rasa.rhsl",
-        r"rasa.canon.index",
     ]
 
     if any(
         re.search(pattern, str(row["TaskDescription"]).lower())
         for pattern in desc_patterns
-    ):
-        return True
-
-    rasa_task_ids = ["T0405", "T0411"]
-    if row["TaskID"] in rasa_task_ids:
-        return True
-
-    rasa_tag_patterns = [
-        r"RASA-FIELD-VRT-\d+",
-        r"RASA-RHSL-\d+",
-        r"RASA-CANON-INDEX",
-        r"RASA\s+\+\s+Josh",
-    ]
-
-    if any(re.search(pattern, str(row["TaskName"])) for pattern in rasa_tag_patterns):
-        return True
-
-    if any(
-        re.search(pattern, str(row["TaskDescription"])) for pattern in rasa_tag_patterns
     ):
         return True
 
@@ -155,10 +122,6 @@ def is_mtap_rasa_params_task(row):
         and (
             "parameter" in str(row["TaskName"]).lower()
             or "parameter" in str(row["TaskDescription"]).lower()
-            or "reference" in str(row["TaskName"]).lower()
-            or "reference" in str(row["TaskDescription"]).lower()
-            or "index" in str(row["TaskName"]).lower()
-            or "index" in str(row["TaskDescription"]).lower()
         )
     ):
         return True
@@ -166,7 +129,7 @@ def is_mtap_rasa_params_task(row):
     return False
 
 
-report_path = "removed_tasks_report_v2.md"
+report_path = "removed_tasks_report.md"
 with open(report_path, "w") as f:
     f.write("# Removed Non-Operational Tasks Report\n\n")
 
