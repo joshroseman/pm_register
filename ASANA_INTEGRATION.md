@@ -78,3 +78,37 @@ Potential future enhancements to the integration:
 2. Support for task relationships and dependencies
 3. Integration with Asana's timeline and portfolio features
 4. Automated regular sync via GitHub Actions workflow
+
+## Repository Configuration
+
+The Asana integration uses the following repositories and configuration files:
+
+1. **PM Register Repository** (`joshroseman/pm_register`):
+   - Integration scripts: `create_asana_project.py`, `import_full_register_to_asana.py`, `create_documentation_project.py`
+   - Documentation: `ASANA_INTEGRATION.md` (this file)
+   - Task data: `final_task_register.csv`
+
+2. **Devin Integrations Repository** (`joshroseman/Devin_integrations`):
+   - Asana API token located in `.env` file
+   - Node.js integration for Asana API
+
+## Asana Workspace Configuration
+
+The Asana integration uses the following Asana workspace and team:
+
+- **Workspace**: "loove labs" (ID: 2943879779347)
+- **Team**: "Boops / retail" (ID: 1203161769284845)
+- **AI/BRAIN Team Space**: Located in the "loove labs" workspace
+- **Documentation Project**: [PM Register Documentation](https://app.asana.com/0/1210281698138647/list)
+
+## Related Documentation
+
+For additional context and information about the business structure, see the Loove Documentation repository, which contains:
+
+- Business structure information
+- Financial planning documents
+- Brand guidelines
+- AI integration documentation
+- Technical frameworks
+
+The repository is organized into logical subdirectories for easy navigation.
