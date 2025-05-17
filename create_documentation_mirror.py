@@ -533,7 +533,7 @@ def create_project():
         
         logger.info(f"Adding custom field settings to project")
         for field_name, field_gid in custom_field_gids.items():
-            settings_url = f"{base_url}/projects/{project_id}/add_custom_field_setting"
+            settings_url = f"{base_url}/projects/{project_id}/custom_field_settings"
             settings_data = {
                 "data": {
                     "custom_field": field_gid,
