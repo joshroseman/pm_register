@@ -63,7 +63,7 @@ CUSTOM_FIELDS = [
 
 DOCUMENTATION_STRUCTURE = [
     {
-        "name": "AI Integration - RASA-Manus Integration Plan",
+        "name": "RASA-Manus Integration Plan",
         "notes": "Tactical implementation plan for integrating RASA and Manus",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/ai_integration/RASA-Manus_Integration_Tactical_Implementation_Plan.md",
         "custom_fields": {
@@ -74,7 +74,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "AI Integration - Ethical Considerations",
+        "name": "Ethical Considerations",
         "notes": "Analysis of ethical considerations for intimate interactions with intuitive AI models",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/ai_integration/Ethical_Considerations_of_Intimate_Interactions_with_Intuitive_AI_Models.md",
         "custom_fields": {
@@ -85,7 +85,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "AI Integration - RASA Mirror Extension",
+        "name": "RASA Mirror Extension",
         "notes": "Technical details for RASA Mirror extension",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/ai_integration/RASA_Mirror_Extension_Snippet.md",
         "custom_fields": {
@@ -97,7 +97,7 @@ DOCUMENTATION_STRUCTURE = [
     },
     
     {
-        "name": "Business Structure - Strategic Organization Summary",
+        "name": "Strategic Organization Summary",
         "notes": "Overview of LOOVE's multi-dimensional creative enterprise",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/LOOVE_Annex_Strategic_Organization_Summary.md",
         "custom_fields": {
@@ -108,7 +108,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Corp Structure",
+        "name": "Corp Structure",
         "notes": "LOOVE corporate structure information",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/LOOVE_corp_structure.csv",
         "custom_fields": {
@@ -119,7 +119,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Verticals by Division",
+        "name": "Verticals by Division",
         "notes": "Vertical organization across divisions",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/Verticals_by_division.csv",
         "custom_fields": {
@@ -130,7 +130,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Divisions",
+        "name": "Divisions",
         "notes": "Division definitions and relationships",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/Divisions.csv",
         "custom_fields": {
@@ -141,7 +141,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Properties",
+        "name": "Properties",
         "notes": "Property definitions and descriptions",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/Properties.csv",
         "custom_fields": {
@@ -152,7 +152,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Assets by Type",
+        "name": "Assets by Type",
         "notes": "Asset categorization and inventory",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/Assets_by_type.csv",
         "custom_fields": {
@@ -163,7 +163,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Business Structure - Principal Property",
+        "name": "Principal Property",
         "notes": "Principal property information",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/business_structure/Principal_property.csv",
         "custom_fields": {
@@ -175,7 +175,7 @@ DOCUMENTATION_STRUCTURE = [
     },
     
     {
-        "name": "Financial - Q2 2025 Budget Initiative Planning",
+        "name": "Q2 2025 Budget Initiative Planning",
         "notes": "Budget planning for Q2 2025 initiatives",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/financial/Q2_2025_budget_initiative_planning.csv",
         "custom_fields": {
@@ -186,7 +186,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Financial - Weekly Projected Expenses Template",
+        "name": "Weekly Projected Expenses Template",
         "notes": "Template for tracking weekly projected expenses and A/P",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/financial/Weekly_Projected_Expenses_Template.csv",
         "custom_fields": {
@@ -197,7 +197,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Financial - Initiative Reporting",
+        "name": "Initiative Reporting",
         "notes": "Initiative-based financial reporting",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/financial/Initiative_reporting.csv",
         "custom_fields": {
@@ -209,7 +209,7 @@ DOCUMENTATION_STRUCTURE = [
     },
     
     {
-        "name": "PM Register - Asana Integration",
+        "name": "Asana Integration",
         "notes": "Documentation for PM Register's Asana integration",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/ASANA_INTEGRATION_Original.md",
         "custom_fields": {
@@ -220,7 +220,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "PM Register - Task Initiatives Index",
+        "name": "Task Initiatives Index",
         "notes": "Index of task initiatives",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/PM_Task_Initiatives_Index.md",
         "custom_fields": {
@@ -231,7 +231,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "PM Register - Comparison Between Original and Improved PM Table Extraction",
+        "name": "Comparison Between Original and Improved PM Table Extraction",
         "notes": "Methodology analysis",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/Comparison_Between_Original_and_Improved_PM_Table_Extraction.md",
         "custom_fields": {
@@ -242,7 +242,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "PM Register - Further PM Task Register Improvements Summary",
+        "name": "Further PM Task Register Improvements Summary",
         "notes": "Summaries of improvements to the task register",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/Further_PM_Task_Register_Improvements_Summary.md",
         "custom_fields": {
@@ -253,7 +253,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "PM Register - Advanced Improved Task Register",
+        "name": "Advanced Improved Task Register",
         "notes": "Further improved task register CSV",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/Advanced_Improved_Task_Register.csv",
         "custom_fields": {
@@ -264,7 +264,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "PM Register - Further Improved Task Register",
+        "name": "Further Improved Task Register",
         "notes": "Further improved task register CSV",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/pm_register/Further_Improved_Task_Register.csv",
         "custom_fields": {
@@ -276,7 +276,7 @@ DOCUMENTATION_STRUCTURE = [
     },
     
     {
-        "name": "Brand Guidelines - Unified LOOVE Style Guide",
+        "name": "Unified LOOVE Style Guide",
         "notes": "Comprehensive style guide for LOOVE's brand identity",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/brand_guidelines/unified_loove_style_guide.md",
         "custom_fields": {
@@ -287,7 +287,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Brand Guidelines - LOOVE Brand Style Guide v1.5",
+        "name": "LOOVE Brand Style Guide v1.5",
         "notes": "Comprehensive style guide for LOOVE's brand identity",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/brand_guidelines/Loove_Brand_Style_Guide_v1.5.md",
         "custom_fields": {
@@ -298,7 +298,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Brand Guidelines - Sectors with Brand Architecture",
+        "name": "Sectors with Brand Architecture",
         "notes": "Sectors with brand architecture information",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/brand_guidelines/Sectors_with_brand_architecture.csv",
         "custom_fields": {
@@ -310,7 +310,7 @@ DOCUMENTATION_STRUCTURE = [
     },
     
     {
-        "name": "Technical - MTAP2 Containment Escalation Framework",
+        "name": "MTAP2 Containment Escalation Framework",
         "notes": "Framework for containment escalation",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/technical/MTAP2_Containment_Escalation_Framework.md",
         "custom_fields": {
@@ -321,7 +321,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Technical - Invocation Shell Index & MTAP-1 Flare Logic Scaffold",
+        "name": "Invocation Shell Index & MTAP-1 Flare Logic Scaffold",
         "notes": "Technical documentation for invocation systems",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/technical/Invocation_Shell_Index_MTAP-1_Flare_Logic_Scaffold.md",
         "custom_fields": {
@@ -332,7 +332,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Technical - Shell Logic Thread Integrity Analysis",
+        "name": "Shell Logic Thread Integrity Analysis",
         "notes": "Analysis of thread integrity in shell logic",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/technical/Shell_logic_THREAD_INTEGRITY_ANALYSIS.md",
         "custom_fields": {
@@ -343,7 +343,7 @@ DOCUMENTATION_STRUCTURE = [
         }
     },
     {
-        "name": "Technical - LOOVE Brain Operational Cost/Benefit Analysis",
+        "name": "LOOVE Brain Operational Cost/Benefit Analysis",
         "notes": "Analysis of operational costs and benefits",
         "file_path": "/home/ubuntu/repos/LooveDocumentation/technical/LOOVE_Brain_operational_cost_benefit_risk_analysis.md",
         "custom_fields": {
@@ -549,7 +549,8 @@ def create_project():
             
             logger.info(f"Added custom field '{field_name}' to project")
         
-        time.sleep(2)  # Wait for 2 seconds
+        logger.info("Waiting for custom fields to be properly associated with the project...")
+        time.sleep(5)  # Increased wait time to ensure custom fields are properly associated
         
         successful_tasks = 0
         successful_attachments = 0
@@ -583,18 +584,41 @@ def create_project():
                         successful_attachments += 1
                 
                 if 'custom_fields' in task_data:
+                    add_to_project_url = f"{base_url}/tasks/{task_id}/add_project"
+                    add_to_project_data = {
+                        "data": {
+                            "project": project_id
+                        }
+                    }
+                    
+                    add_to_project_response = requests.post(add_to_project_url, json=add_to_project_data, headers=headers)
+                    if add_to_project_response.status_code != 200:
+                        logger.warning(f"Failed to add task to project: {add_to_project_response.text}")
+                    
+                    project_fields_url = f"{base_url}/projects/{project_id}/custom_field_settings"
+                    project_fields_response = requests.get(project_fields_url, headers=headers)
+                    
+                    if project_fields_response.status_code != 200:
+                        logger.warning(f"Failed to get project custom fields: {project_fields_response.text}")
+                        continue
+                    
+                    project_fields = project_fields_response.json().get('data', [])
+                    project_field_gids = {}
+                    
+                    for field in project_fields:
+                        field_data = field.get('custom_field', {})
+                        field_name_from_api = field_data.get('name')
+                        field_gid_from_api = field_data.get('gid')
+                        
+                        if field_name_from_api:
+                            project_field_gids[field_name_from_api] = field_gid_from_api
+                            logger.info(f"Project has custom field: {field_name_from_api} with GID: {field_gid_from_api}")
+                    
+                    custom_fields_data = {}
+                    
                     for field_name, field_value in task_data['custom_fields'].items():
-                        if field_name in custom_field_gids and field_value:
-                            field_gid = custom_field_gids[field_name]
-                            
-                            update_task_url = f"{base_url}/tasks/{task_id}"
-                            update_data = {
-                                "data": {
-                                    "custom_fields": {
-                                        field_gid: field_value
-                                    }
-                                }
-                            }
+                        if field_name in project_field_gids and field_value:
+                            field_gid = project_field_gids[field_name]
                             
                             if field_name in ['Document Type', 'Priority', 'Format']:
                                 field_url = f"{base_url}/custom_fields/{field_gid}"
@@ -610,21 +634,30 @@ def create_project():
                                 found_option = False
                                 for option in enum_options:
                                     if option['name'] == field_value:
-                                        update_data['data']['custom_fields'][field_gid] = option['gid']
+                                        custom_fields_data[field_gid] = option['gid']
                                         found_option = True
                                         logger.info(f"Found enum option '{field_value}' with GID: {option['gid']}")
                                         break
                                 
                                 if not found_option:
                                     logger.warning(f"Could not find enum option '{field_value}' for field '{field_name}'. Available options: {[o['name'] for o in enum_options]}")
-                                    continue
-                            
-                            update_response = requests.put(update_task_url, json=update_data, headers=headers)
-                            
-                            if update_response.status_code == 200:
-                                logger.info(f"Set '{field_name}' to '{field_value}' for task")
                             else:
-                                logger.warning(f"Failed to set custom field value: {update_response.text}")
+                                custom_fields_data[field_gid] = field_value
+                    
+                    if custom_fields_data:
+                        update_task_url = f"{base_url}/tasks/{task_id}"
+                        update_data = {
+                            "data": {
+                                "custom_fields": custom_fields_data
+                            }
+                        }
+                        
+                        update_response = requests.put(update_task_url, json=update_data, headers=headers)
+                        
+                        if update_response.status_code == 200:
+                            logger.info(f"Set custom field values for task: {custom_fields_data}")
+                        else:
+                            logger.warning(f"Failed to set custom field values: {update_response.text}")
             
             except Exception as e:
                 logger.error(f"Error creating task '{task_data['name']}': {e}")
