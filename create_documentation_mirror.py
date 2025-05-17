@@ -584,16 +584,6 @@ def create_project():
                         successful_attachments += 1
                 
                 if 'custom_fields' in task_data:
-                    add_to_project_url = f"{base_url}/tasks/{task_id}/add_project"
-                    add_to_project_data = {
-                        "data": {
-                            "project": project_id
-                        }
-                    }
-                    
-                    add_to_project_response = requests.post(add_to_project_url, json=add_to_project_data, headers=headers)
-                    if add_to_project_response.status_code != 200:
-                        logger.warning(f"Failed to add task to project: {add_to_project_response.text}")
                     
                     project_fields_url = f"{base_url}/projects/{project_id}/custom_field_settings"
                     project_fields_response = requests.get(project_fields_url, headers=headers)
